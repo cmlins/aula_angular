@@ -1,0 +1,88 @@
+.titulo {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: purple;
+  font-weight: 900;
+  padding: 5px;
+}
+
+.mudaTitulo {
+  background-color: rosybrown;
+  padding: 5px;
+  width: 100%;
+}
+
+.imagem {
+  background-color:seagreen;
+  padding: 5px;
+  display: center;
+  width: 100%;
+
+  h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+  }
+
+  img{
+    display: flex;
+    margin: 5px;
+  }
+}
+
+.fonte{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  background-color: salmon;
+  padding: 5px;
+  width: 100%;
+
+  .negativo{
+    color:#ff0000;
+  }
+}
+
+.diretivasIf {
+  background-color: sandybrown;
+  width: 100%;
+  padding: 5px;
+}
+
+.diretivasFor {
+  background-color: rgb(211, 212, 224);
+  width: 100%;
+  padding: 5px;
+
+  table {
+    border: 1px solid #1C6EA4;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+
+    td, th {
+      border: 1px solid #AAAAAA;
+      padding: 3px 2px;
+    }
+
+    thead {
+      background: #1C6EA4;
+      background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+      background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+      background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+      border-bottom: 2px solid #444444;
+
+      th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #FFFFFF;
+        border-left: 2px solid #D0E4F5;
+      }
+    }
+  }
+}
+
+.model {
+  background-color: tan;
+  padding: 5px;
+  width: 100%;
+}
+
